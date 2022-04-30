@@ -1,0 +1,41 @@
+.globel{
+    float: left;
+    width: 100%;
+    height: 920px;
+    padding: 0px;
+    background-color: yellow;
+}
+
+.box-top {
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    background-color: cadetblue;
+}
+.box-end{
+    width: 100%;
+    height: 820px;
+    padding: 0px;
+    background-color: white;
+}
+
+.box-left {
+    float: left;
+    width: 10%;
+    height: 820px;
+    padding: 50px;
+    background-color: white;
+    border-right: 1px solid DarkGray;
+}
+.box-right{
+    float: left;
+    width: 90%;
+    height: 820px;
+    padding: 50px;
+    background-color: white;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

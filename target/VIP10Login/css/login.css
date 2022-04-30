@@ -1,0 +1,68 @@
+       body{
+           background-image:url("./../img/broder.jpeg");
+           height: 100%;
+           width: 100%;
+       }
+
+       input{
+          border-width: 2px;
+          border-color: white;
+          width: 200px;
+          height: 25px;
+          font-size: 15px;
+       }
+       button{
+           border-width: 2px;
+           border-color: white;
+           width: 60px;
+           height: 30px;
+           font-size: 16px;
+
+       }
+       p{
+           font-family: cursive;
+           color: antiquewhite;
+           font-size:30px;
+           text-align:center
+       }
+       fieldset{
+           border-color: revert;
+           border-width: inherit;
+           background-color: #800c0000;
+           width: 700px;
+           height: 400px;
+           float: right;
+           position: absolute;
+           left: 1000px;
+           top: 350px;
+       }
+       h1{
+           float: left;
+           width: 300px;
+           font-family: cursive;
+           color: antiquewhite;
+           position: revert;
+           margin-top: 150px;
+           margin-left: 300px;
+       }
+       .form{
+           float: right;
+           width: 300px;
+           position: revert;
+           margin-top: 120px;
+       }
+       form{
+           text-align:center
+       }
+       .forget{
+           color: #666666;
+           padding:15px;
+           float: right;
+       }
+       .sign{
+           color: #666666;
+           padding:15px;
+           float: left;
+           position: revert;
+           margin-left: 40px;
+       }
